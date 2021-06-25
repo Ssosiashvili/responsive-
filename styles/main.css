@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+.container  {
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.whole-header {
+    margin-top: 50px;
+    align-items: center;
+    margin-bottom: 60px;
+    
+}
+.list li{
+    margin-left: 80px;
+}
+.list li a {
+    color: #707070;
+    font-size: 20px;
+    font-family: "Archy EDT", sans-serif;
+	-webkit-text-stroke: 1px #707070;
+}
+.logo {
+    width: 122px;
+    height: 95.04px;
+}
+.search {
+    margin-left: 80px;
+    width: 25.5px;
+    height: 25.5px;
+}
+.cover {
+    display: none;
+    width:100%;
+}
+.firstSection {
+    margin-top: 150px;
+}
+.sectionBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.littleContainer {
+    max-width: 483px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom-color: #707070;
+    border-bottom: ridge 1px;
+    border-right-color: #707070;
+    border-right: ridge 1px;
+    border-left-color: #707070;
+    border-left: ridge 1px;
+    
+}
+.littleContainer h3 {
+    padding-left: 12px;
+    margin-top: 29px;
+    margin-bottom: 38px;
+    font-family: "Archy EDT";
+    font-size: 30px;
+    color: #707070;
+}
+.littleContainer p {
+    padding-left: 12px;
+    padding-right: 35px;
+    font-size: 18px;
+    color: #707070;
+}
+.more {
+    align-self: flex-end;
+    font-size: 24px;
+    font-family: "Archy EDT";
+    -webkit-text-stroke: 1px #707070;
+    padding-right: 14px;
+    padding-bottom: 35px;
+    padding-top: 83px;
+}
+.more a {
+    color: #707070;
+}
+h2 {
+    margin-bottom: 71px;
+    font-size: 40px;
+    font-family: "Archy EDT";
+}
+.LoadMore a {
+    font-family: "Archy EDT";
+    font-size: 30px;
+    color: #707070;
+    -webkit-text-stroke: 3px #707070;
+}
+
+.LoadMore {
+    margin-top: 65px;
+    text-align: center;
+    margin-bottom: 64.5px;
+}
