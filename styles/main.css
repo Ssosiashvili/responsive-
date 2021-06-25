@@ -101,10 +101,59 @@ h2 {
     font-size: 30px;
     color: #707070;
     -webkit-text-stroke: 3px #707070;
+    text-decoration: underline;
 }
 
 .LoadMore {
     margin-top: 65px;
     text-align: center;
     margin-bottom: 64.5px;
+}
+footer {
+    background-color: #2E2E2E;
+    align-items: center;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer-logo {
+    width: 122px;
+    height: 95.04px;
+}
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.cont {
+    font-family: "Archy EDT";
+    font-size: 20px;
+    color: #F2F2F2;
+}
+.number, .mail {
+    font-family: "Archy EDT";
+    font-size: 13px;
+    color: #F2F2F2;
+}
+.adress {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.adr {
+    font-family: "Archy EDT";
+    font-size: 19px;
+    color: #F2F2F2;  
+}
+.city-street {
+    font-family: "Archy EDT";
+    font-size: 10px;
+    color: #F2F2F2; 
+
+}
+.fb {
+    margin-right: 34.1px;
 }
